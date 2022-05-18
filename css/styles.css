@@ -152,6 +152,7 @@ footer{
 #flex > div{
   margin: 10px;
   display: block;
+  justify-content: center;
     
 }
 #flex > div > p{
