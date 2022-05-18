@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'droid';
+  src: url('fontes/idroid.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+p{
+  text-indent: 20px;
+  margin:10px;
+}
+header{
+  top: 0;
+  color: white;
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(to top, #1A5C38, #84E1AD );
+  position: fixed;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.342);
+
+}
+body{
+  background-color: #84E1AD;
+  padding-top: 150px;
+}
+main{
+  padding: 10px;
+  height: auto;
+  width: auto;
+  margin: 10px 200px;
+  background-color: white; 
+  display: inline-block;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
+  border-radius: 0px 0px 9px 9px;
+   
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  text-align: center;  
+}
+header > h1, p {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin: 0;
+}
+header > a{
+   margin-right: 10px;
+   text-decoration: none; 
+   color: white;
+   font-size: 1em;
+   margin-left: 10px;
+   padding: 0px 10px;
+
+   
+}
+header > a:hover{
+   padding: 10px 10px 7px 10px;
+   width: 80px;
+   height: 20px;
+   background-color: #0c5e31;
+   border-radius: 3px;
+   border-left: 2px solid;
+   border-color: #93f7be;
+}
+
+footer{
+  width: 100%;
+  background-color: #1A5C38;
+  margin-top: 10px;
+  text-align: center;
+}
+h2{
+  margin-top: 20px 0px;
+  font-family: 'droid';
+  color: #1A5C38;
+  margin-left: 25px;
+  width: 80%;
+  background-image: linear-gradient(to 
+  right , #84E1AD, #ffff );
+}
+main > p{
+  text-align: justify;
+  
+}
+div > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+nav>h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width: auto;
+  height: 40px;
+  background-color: #0c5e31;
+  border-radius: 9px 9px 0px 0px;
+  padding: 10px 0px 0px 10px;
+}
+nav{
+  margin-top: 20px;
+  width: auto;
+  height: 300px;
+  background-color: #93f7be;
+  border-radius: 9px 9px 9px 9px;
+  display: table;
+}
+ul{
+  display: inline-table;
+  margin-left: 80px;
+}
+.coluna2{
+  list-style: none;
+  
+}
+.coluna{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.coluna1{
+ 
+  list-style: none;
+}
+iframe{
+  width: 100%;
+  height: 400px;
+}
