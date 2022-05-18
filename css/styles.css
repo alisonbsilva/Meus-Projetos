@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 98vh;
+  background-image: linear-gradient(to top,#9eda3f ,#00a8a8 );
+  background-attachment:fixed;
+  background-size: cover;
+  background-repeat: repeat;
+  margin-top: 14px;
+}
+#box {
+  width: 500px;
+  height: 650px;
+  background-color: rgb(131, 60, 60);
+  margin:0px auto;   
+  position: relative;
+  background-image: url("/image/bg.jpg");
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+#article{
+  display: flex;
+  
+}
+#foto{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+/*===Configuração do titulo==*/
+h1{
+  padding-top:20px;
+  margin: auto;
+  text-align: center;
+  font-size: 3.3rem;
+  color:#81cf02;
+  font-family: 'Fredericka the Great', cursive;  
+}
+/*===Configuração do Meu texto*/
+p{ 
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: auto;
+  margin: auto;
+  font-size: 1.2em;
+  padding: 10px;
+  border-radius: 9px;
+  background-color: #282c2217;
+
+}
+
+/*===Configuração do Menu===*/
+#menu{
+  list-style: none;    
+}
+#menu > a {
+  position: absolute;
+  text-decoration: none;
+  left: 110px;
+  top: 385px;
+  background-color: #81cf02;
+  padding: 20px;
+  text-align:center;   
+  font-size: 3em;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.418);
+  color:black;
+}
+#menu :hover{
+  background-color: #00a8a8;
+  transition: 1s;
+}
+/*======Configuração das logos======*/
+#rede {
+  width: auto;
+  padding: 10px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 22px;
+  right: 0;
+  left: 0; 
+  background-color: #92ec0070;
+}
+#rede > li{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+#rede > li > a{
+  list-style: none;
+  font-size: 1em;
+  text-decoration: none;
+  padding-left: 2px;
+  color: blue;
+}
+#rede :hover{
+   text-decoration: underline;
+}
+
+/*== Configuração do Footer===*/
+footer{
+  padding-top: 5px;
+  text-align: center;
+}
+
+

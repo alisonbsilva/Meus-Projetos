@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+body {
+  height: 98vh;
+  background-image: linear-gradient(to top,#9eda3f ,#00a8a8 );
+  background-attachment:fixed;
+  background-size: cover;
+  background-repeat: repeat;
+  margin-top: 14px;
+}
+#box {
+  width: 500px;
+  height: auto;
+  background-color: white;
+  margin:0px auto;   
+  position: relative;
+  background-image: url("/image/1.jpg");
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*===Configuração do titulo==*/
+h1{
+  padding-top:20px;
+  margin: auto;
+  text-align: center;
+  font-size: 3.3rem;
+  color:#81cf02;
+  font-family: 'Fredericka the Great', cursive;  
+}
+/*===Configuração do Meu texto*/
+p{ 
+  color: white;
+  text-align: justify;
+  width: 250px;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+/*===Configuração do Menu===*/
+#menu a{
+  width: 100px;
+  height:auto;
+  background-color: #81cf02;
+  margin: 50px;
+  padding: 5px;
+  color: white;
+
+}
+#menu {
+  display: flex;
+  color: white;
+}
+#menu > li > a > img{
+  width: 139px;
+  height: 106px;
+}
+
+
+
+/*======Configuração das logos======*/
+#rede {
+  width: auto;
+  padding: 10px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 22px;
+  right: 0;
+  left: 0; 
+  background-color: #92ec0070;
+}
+#rede > li{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+#rede > li > a{
+  list-style: none;
+  font-size: 1em;
+  text-decoration: none;
+  padding-left: 2px;
+  color: blue;
+}
+#rede :hover{
+  text-decoration: underline;
+}
+/*== Configuração do Footer===*/
+footer{
+  padding-top: 5px;
+  text-align: center;
+}
+
