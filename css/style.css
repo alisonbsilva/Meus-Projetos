@@ -19,7 +19,7 @@ body {
   float: left;
   margin: 20px 0px 0px 20px; 
 }
-#box {
+#box2{
   width: 500px;
   height: 650px;
   background-color: rgba(14, 13, 13, 0.836);
@@ -34,7 +34,7 @@ body {
 }
 
 /*===Configuração do titulo==*/
-h1{
+#box2 > h1{
   padding-top:20px;
   margin: auto;
   text-align: center;
@@ -57,7 +57,7 @@ h1{
   display: block;
     
 }
-div > p{
+#flex > div > p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8em;
   color: black;
