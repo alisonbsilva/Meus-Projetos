@@ -78,6 +78,41 @@ p{
   background-color: #00a8a8;
   transition: 1s;
 }
+
+/*== Configuração do Footer===*/
+footer{
+  padding-top: 5px;
+  text-align: center;
+}
+/*Configuração da segunda pagina*/
+#voltar{
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 20px 0px 0px 20px; 
+}
+#box2{
+  width: 500px;
+  height: 650px;
+  background-color: rgba(14, 13, 13, 0.836);
+  margin:0px auto;
+  position: relative;
+  background-image: url("/image/bg.jpg");
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*===Configuração do titulo==*/
+#box2 > h1{
+  padding-top:20px;
+  margin: auto;
+  text-align: center;
+  font-size: 3.3rem;
+  color:#81cf02;
+  font-family: 'Fredericka the Great', cursive;  
+}
+
 /*======Configuração das logos======*/
 #rede {
   width: auto;
@@ -105,43 +140,6 @@ p{
 #rede :hover{
    text-decoration: underline;
 }
-
-/*== Configuração do Footer===*/
-footer{
-  padding-top: 5px;
-  text-align: center;
-}
-/*Configuração da segunda pagina*/
-#voltar{
-  height: 60px;
-  width: 60px;
-  float: left;
-  margin: 20px 0px 0px 20px; 
-}
-#box2{
-  width: 500px;
-  height: 650px;
-  background-color: rgba(14, 13, 13, 0.836);
-  margin:0px auto;
-  position: relative;
-  background-image: url("/image/bg.jpg");
-  border-radius: 10px;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-
-}
-
-/*===Configuração do titulo==*/
-#box2 > h1{
-  padding-top:20px;
-  margin: auto;
-  text-align: center;
-  font-size: 3.3rem;
-  color:#81cf02;
-  font-family: 'Fredericka the Great', cursive;  
-}
-/*===Configuração do Meu texto*/
 
 
 /*===Configuração do Menu===*/
