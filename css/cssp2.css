@@ -17,14 +17,14 @@ body {
   height: 60px;
   width: 60px;
   float: left;
-  margin: 20px 0px 0px 20px; 
+  margin: 20px 0px 0px 20px;
   
 }
 #box {
   width: 500px;
   height: 650px;
   background-color: rgba(14, 13, 13, 0.836);
-  margin:0px auto;   
+  margin:0px auto;
   position: relative;
   background-image: url("/image/bg.jpg");
   border-radius: 10px;
@@ -54,7 +54,7 @@ h1{
 
 }
 #flex > div{
-  margin: 10px;  
+  margin: 10px;
   display: block;
     
 }
@@ -69,6 +69,5 @@ div > p{
   border: 1px solid greenyellow;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.692);
-  
 }
 /*======Configuração das logos======*/
